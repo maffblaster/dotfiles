@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.docbook :set filetype=xml
+autocmd BufNewFile,BufRead *.docbook :set filetype=xsl
