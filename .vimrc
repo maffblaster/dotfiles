@@ -17,6 +17,7 @@ set autoindent
 
 " Enables the use of tab completion with :find for more efficient search
 " operation.
+" See help:wildmenu
 set wildmenu
 
 set modeline
@@ -38,10 +39,15 @@ set noswapfile
 colorscheme molokai
 
 " Enables syntax highlighting (requires app-vim/extra-syntax on Gentoo).
+" See help:syntax
 syntax on
 
 " Enables spell checking. Misspelled words will be highlighted. 
-" Pressing s[ or s] will move the cursor forward or back to misspelled words.
+" Pressing ]s or [s will move the cursor forward or back to misspelled words.
 " Pressing gz will add a word to the dictionary, and gw will mark a word as
-" mispelled.
-set spell spelllang=en_us
+" misspelled. z= will show spelling suggestions.
+"
+" See help:spell
+"
+" (vim < 7.0 requires app-vim/vim-spell-en on Gentoo.)
+set spell spelllang=en_us encoding=utf-8
