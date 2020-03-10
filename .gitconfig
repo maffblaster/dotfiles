@@ -1,0 +1,35 @@
+[user]
+	name = Matthew Marchese
+	email = maffblaster@gentoo.org
+	signingkey = 0x0167D2D1C388917C
+[core]
+	editor = vim
+[web]
+	browser = firefox
+[credential]
+	helper = cache --timeout=3600
+[push]
+	default = simple
+	gpgsign = if-asked
+[color]
+	ui = auto
+[merge]
+	guitool = meld
+	tool = vimdiff
+[diff]	
+	guitool = meld
+	tool = icdiff
+[difftool]
+	prompt = false
+[format]
+	signoff = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[alias]
+	a = add --all
+	# Logging
+	l = log --oneline
+	lg = log --oneline --graph --decorate
+	hist = log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short

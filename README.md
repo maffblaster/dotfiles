@@ -16,6 +16,10 @@ ll: A human readable, almost-all inclusive, long listing for `ls` that includes 
 * `|` means the file is a named pipe (FIFO).
 * `>` means the file is a door (interprocess communication file).
 
+### .gitconfig
+
+Requires app-editors/vim, app-misc/icdiff, dev-util, meld, and www-client/firefox.
+
 ### .tmux.conf
 
 Settings to enhance tmux's out-of-the-box experience. Highlights include:
@@ -35,6 +39,6 @@ Requires app-vim/molokai or app-vim/extra-syntax package for all `set` commands 
 
 ## License
 
-Unlicense
+All dotfiles are licensed under the Unlicense.
 
-Enjoy! =)
+I hope others can find these useful.
