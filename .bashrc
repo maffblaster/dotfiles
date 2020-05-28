@@ -18,5 +18,12 @@ export EDITOR=vim
 
 alias ll="ls --almost-all --format=long --human-readable --classify --color=auto"
 
-# Only affects Gentoo installations with eix .
-export EIX_LIMIT=0 # Makes eix print the long lists by default
+# Only affects Gentoo installations with eix.
+export EIX_LIMIT=0 # Makes eix print the long lists by default.
+
+GPG_TTY=$(tty) # Added for gpg-agent per man gpg-agent
+export GPG_TTY
+
+complete -C '/usr/bin/aws_completer' aws # Command completion for aws-cli tool
+
+
