@@ -1,13 +1,11 @@
 [user]
 	name = Matthew Marchese
 	email = maffblaster@gentoo.org
-	signingkey = 0x0167D2D1C388917C
+	signingkey = 1A8032FD1B3A9D5F
 [core]
 	editor = vim
 [web]
 	browser = firefox
-[credential]
-	helper = cache --timeout=3600
 [push]
 	default = simple
 	gpgsign = if-asked
@@ -26,10 +24,9 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+	program = /usr/bin/gpg
 [alias]
 	a = add --all
 	# Logging
 	l = log --oneline
 	lg = log --oneline --graph --decorate
-	hist = log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
