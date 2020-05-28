@@ -16,7 +16,7 @@ ll: A human readable, almost-all inclusive, long listing for `ls` that includes 
 * `|` means the file is a named pipe (FIFO).
 * `>` means the file is a door (interprocess communication file).
 
-Added completion command for aws-cli.
+Added completion command for aws-cli (requires dev-python/awscli).
 
 ### .gitconfig
 
