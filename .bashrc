@@ -26,4 +26,9 @@ export GPG_TTY
 
 complete -C '/usr/bin/aws_completer' aws # Command completion for aws-cli tool
 
-
+# Sets less to interpret color characters.
+export LESS='-R'
+# Configures lesspipe to colorize output.
+export LESSCOLOR='yes'
+# Define a lessfilter file
+export LESSOPEN='|~/.lessfilter %s'

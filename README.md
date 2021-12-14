@@ -20,7 +20,11 @@ Added completion command for aws-cli (requires dev-python/awscli).
 
 ### .gitconfig
 
-Requires app-editors/vim, app-misc/icdiff, dev-util, meld, and www-client/firefox.
+Requires app-editors/vim, app-misc/icdiff, dev-util/meld, and www-client/firefox.
+
+### .lessfilter
+
+Contains commands for automagic syntax highlighting for `less` by using pygments (dev-python/pygments) as a preprocessor. Default highlighting style is monokai.
 
 ### .tmux.conf
 
