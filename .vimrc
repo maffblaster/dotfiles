@@ -11,6 +11,9 @@ inoremap <Down> <NOP>
 inoremap <Left> <NOP>
 inoremap <Right> <NOP>
 
+" Sets indents that consist of 4 space characters, entered with the tab key
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+
 " Enable both smartindent and autoindent.
 set smartindent 
 set autoindent 
